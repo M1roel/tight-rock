@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 0px;
+}
+
+.Body {
+  background-color: #282c34;
+  margin-top: 0px;
+}
+
+.Navbar {
+  background-color: #282c34;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease; /* Sanfter Übergang */
+}
+
+.Navbar--scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 0.9em; /* Beispiel für eine verkleinerte Schriftgröße */
+}
+
+.Navbar ul {
+  list-style-type: none; /* Entfernt die Aufzählungszeichen */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Aktiviert Flexbox */
+  justify-content: space-around; /* Zentriert und verteilt die Elemente gleichmäßig */
+}
+
+.Navbar li {
+  margin: 0 15px; /* Fügt etwas Abstand zwischen den Elementen hinzu */
+}
+
+.Navbar a {
+  color: white; /* Setzt die Schriftfarbe auf Weiß */
+  text-decoration: none; /* Entfernt Unterstreichungen von Links */
+  font-family: Arial, sans-serif; /* Setzt die Schriftart auf Arial */
+}
+
+.Bandfoto {
+  width: 99vw;       /* Breite des Bildes auf 100% der Viewport-Breite setzen */
+  height: auto;       /* Automatische Anpassung der Höhe */
+  margin-top: 10px;      /* Oberer Abstand auf 0 setzen */
+  margin-bottom: 10px; /* Unterer Abstand */
+}
+
+button {
+  display: inline-block;
+  background-color: #6bbe92;
+  border: 0;
+  width: 60px;
+  margin: 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+}
