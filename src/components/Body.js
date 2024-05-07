@@ -1,3 +1,5 @@
+import ControlledCarousel from "./ControlledCarousel";
+
 function Body() {
   const tourYear = new Date().getFullYear();
 
@@ -18,6 +20,7 @@ function Body() {
           <li>14.12.2024 - Kneipe zum Pitter, Köln</li>
         </ul>
       </div>
+      <ControlledCarousel />
     </div>
   );
 }
