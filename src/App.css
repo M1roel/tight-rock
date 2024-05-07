@@ -71,6 +71,11 @@
   text-align: center; /* Ändert die Ausrichtung auf zentriert */
 }
 
+.Tour-container li {
+  margin: 0 15px;
+  padding: 10px;
+}
+
 .Bandfoto {
   width: 99vw;       /* Breite des Bildes auf 100% der Viewport-Breite setzen */
   height: auto;       /* Automatische Anpassung der Höhe */
@@ -82,7 +87,7 @@
   background-color: #282c34;
   color: white;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 40px;
   padding-top: 0;
   padding-bottom: 0;
   text-align: center; /* Ändert die Ausrichtung auf zentriert */
