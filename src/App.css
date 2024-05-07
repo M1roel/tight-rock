@@ -14,7 +14,6 @@
 
 .Body {
   background-color: #282c34;
-  margin-top: 0px;
 }
 
 .Navbar {
@@ -30,7 +29,7 @@
 .Navbar--scrolled {
   padding-top: 5px;
   padding-bottom: 5px;
-  font-size: 0.9em; /* Beispiel für eine verkleinerte Schriftgröße */
+  font-size: 0.6em; /* Beispiel für eine verkleinerte Schriftgröße */
 }
 
 .Navbar ul {
@@ -62,11 +61,13 @@
 
 .Tour-container ul {
   list-style-type: none; /* Entfernt die Aufzählungszeichen */
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
   padding-bottom: 0;
-}
-
-.Tour-container li {
-  margin: 0 15px; /* Fügt etwas Abstand zwischen den Elementen hinzu */
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Ändert die Ausrichtung auf zentriert */
 }
 
 .Bandfoto {
@@ -76,7 +77,12 @@
   margin-bottom: 40px; /* Unterer Abstand */
 }
 
-.Tour-container h2 {
+.Year-container h2{
+  background-color: #282c34;
+  color: white;
   margin-top: 0;
   margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center; /* Ändert die Ausrichtung auf zentriert */
 }
