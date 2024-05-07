@@ -20,7 +20,9 @@ function Body() {
           <li>14.12.2024 - Kneipe zum Pitter, Köln</li>
         </ul>
       </div>
-      <ControlledCarousel />
+      <div className="Carousel-container">
+        <ControlledCarousel />
+      </div>
     </div>
   );
 }
