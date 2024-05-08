@@ -13,10 +13,6 @@
   margin-bottom: 0px;
 }
 
-.Body {
-  background-color: #282c34;
-}
-
 .Navbar {
   background-color: #282c34;
   padding-top: 10px;
@@ -51,6 +47,17 @@
   font-family: Arial, sans-serif; /* Setzt die Schriftart auf Arial */
 }
 
+.Bandfoto {
+  width: 99vw;       /* Breite des Bildes auf 100% der Viewport-Breite setzen */
+  height: auto;       /* Automatische Anpassung der Höhe */
+  margin-top: 0px;      /* Oberer Abstand auf 0 setzen */
+  margin-bottom: 40px; /* Unterer Abstand */
+}
+
+.Body {
+  background-color: #282c34;
+}
+
 .Tour-container {
   background-color: #282c34;
   color: white;
@@ -74,13 +81,6 @@
 .Tour-container li {
   margin: 0 15px;
   padding: 10px;
-}
-
-.Bandfoto {
-  width: 99vw;       /* Breite des Bildes auf 100% der Viewport-Breite setzen */
-  height: auto;       /* Automatische Anpassung der Höhe */
-  margin-top: 0px;      /* Oberer Abstand auf 0 setzen */
-  margin-bottom: 40px; /* Unterer Abstand */
 }
 
 .Year-container h2{
