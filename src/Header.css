@@ -1,0 +1,59 @@
+.Image-container {
+    position: relative; /* Positionierung relativ zum Container */
+  }
+  
+  .Text-overlay {
+    position: absolute; /* Positionierung absolut innerhalb des Containers */
+    top: 50%; /* Vertikal zentriert */
+    left: 75%; /* Horizontal zentriert */
+    transform: translate(-50%, -50%); /* Zentrierung des Textes */
+    text-align: center; /* Zentrierung des Textes */
+  }
+
+  .Tight, .FemaleFronted {
+    opacity: 0; /* Starte mit einer Opazität von 0 */
+    transform: translateX(100%); /* Verschiebe die Elemente 100% der Containerbreite nach rechts */
+  }
+  
+  .Tight {
+    font-size: 120px;
+    font-family: 'EngraversOldEnglish', sans-serif;
+    opacity: 0; /* Starte mit einer Opazität von 0 */
+    transform: translateX(100%); /* Verschiebe die Elemente 100% der Containerbreite nach rechts */
+    animation: slideFromRightH1 1s forwards; /* Verwende die slideFromRight-Animation mit einer Dauer von 1 Sekunde */
+  }
+
+  .FemaleFronted {
+    font-size: 20px;
+    opacity: 0; /* Starte mit einer Opazität von 0 */
+    transform: translateX(100%); /* Verschiebe die Elemente 100% der Containerbreite nach rechts */
+    animation: slideFromRightH2 1s forwards; /* Verwende die slideFromRight-Animation mit einer Dauer von 1 Sekunde */
+    animation-delay: 1s;
+  }
+  
+  @keyframes slideFromRightH1 {
+    from {
+      opacity: 0; /* Starte mit einer Opazität von 0 */
+      transform: translateX(100%); /* Starte mit einer Verschiebung um 100% der Containerbreite nach rechts */
+    }
+    to {
+      opacity: 1; /* Ende mit einer Opazität von 1 */
+      transform: translateX(0); /* Ende mit einer Verschiebung um 0 (keine Verschiebung) */
+    }
+  }
+  
+  @keyframes slideFromRightH2 {
+    from {
+      opacity: 0; /* Starte mit einer Opazität von 0 */
+      transform: translateX(100%); /* Starte mit einer Verschiebung um 100% der Containerbreite nach rechts */
+    }
+    to {
+      opacity: 1; /* Ende mit einer Opazität von 1 */
+      transform: translateX(0); /* Ende mit einer Verschiebung um 0 (keine Verschiebung) */
+    }
+  }
+  
+@font-face {
+    font-family: 'EngraversOldEnglish';
+    src: url('./fonts/OPTIEngraversOldEnglish.otf') format('opentype');
+  }
