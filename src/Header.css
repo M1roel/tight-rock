@@ -16,7 +16,7 @@
   }
   
   .Tight {
-    font-size: 120px;
+    font-size: calc(2vw + 30px);;
     font-family: 'EngraversOldEnglish', sans-serif;
     opacity: 0; /* Starte mit einer Opazität von 0 */
     transform: translateX(100%); /* Verschiebe die Elemente 100% der Containerbreite nach rechts */
@@ -24,7 +24,7 @@
   }
 
   .FemaleFronted {
-    font-size: 20px;
+    font-size: calc(1vw + 16px);;
     opacity: 0; /* Starte mit einer Opazität von 0 */
     transform: translateX(100%); /* Verschiebe die Elemente 100% der Containerbreite nach rechts */
     animation: slideFromRightH2 1s forwards; /* Verwende die slideFromRight-Animation mit einer Dauer von 1 Sekunde */
