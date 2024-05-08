@@ -1,8 +1,13 @@
 function Footer() {
+    const currentYear = new Date().getFullYear();
+
     return (
         <div className="Footer-main">
-            <h4>FOOTER</h4>                      
-        </div>
+        © {currentYear} Copyright: {" "}
+        <a href='https://github.com/M1roel'>
+          Peter Pfautsch
+        </a>
+      </div>
     );
 }
 

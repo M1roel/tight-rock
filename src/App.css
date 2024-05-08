@@ -107,5 +107,9 @@
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
+}
+
+.Footer-main a {
+  text-decoration: none; /* Entfernt den Unterstrich */
 }
