@@ -1,7 +1,7 @@
 function Footer() {
     return (
-        <div>
-            
+        <div className="Footer-main">
+            <h4>FOOTER</h4>                      
         </div>
     );
 }
