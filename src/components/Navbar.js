@@ -29,7 +29,7 @@ function Navbar() {
                 <li><a href="https://tight-rock.myspreadshop.de/">Merge</a></li>
                 <li><a href="/tourdaten">Tourdaten</a></li>
                 <li><a href="/kontakt">Kontakt</a></li>
-                <li><a href="/über-uns">Über uns</a></li>
+                <li><a href="/about">Über uns</a></li>
             </ul>
         </div>
     );

@@ -1,16 +1,25 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Body from './components/Body';
-import Footer from './components/Footer';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Tourdaten from "./components/Tourdaten";
+import Kontakt from "./components/Kontakt";
+import About from "./components/About";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Header />
-      <Body />
-      <Footer />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/tourdaten" element={<Tourdaten/>} />
+          <Route path="/kontakt" element={<Kontakt/>} />
+          <Route path="/about" element={<About/>} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }
