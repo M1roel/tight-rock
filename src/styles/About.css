@@ -6,18 +6,12 @@
   
   .About-kerstin img {
     order: 2;
+    width: 100%;
+    height: auto;
     transform: translateX(100%);
     transition: transform 1s;
   }
   
-  .beschreibung_links {
-    order: 1;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-
 /* Stephan CSS */
 
 .About-stephan {
@@ -26,16 +20,10 @@
   
   .About-stephan img {
     order: 1;
+    width: 100%;
+    height: auto;
     transform: translateX(-100%);
     transition: transform 1s;
-  }
-  
-  .beschreibung_rechts {
-    order: 2;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-left: 15%;
-    padding-right: 15%;
   }
 
 /* Bernd CSS */
@@ -46,14 +34,10 @@
   
   .About-bernd img {
     order: 2;
+    width: 55%;
+    height: auto;
     transform: translateX(100%);
     transition: transform 1s;
-  }
-  
-  .beschreibung_links {
-    order: 1;
-    margin-top: auto;
-    margin-bottom: auto;
   }
 
 /* Joerg CSS */
@@ -64,14 +48,10 @@
   
   .About-joerg img {
     order: 1;
+    width: 100%;
+    height: auto;
     transform: translateX(-100%);
     transition: transform 1s;
-  }
-  
-  .beschreibung_rechts {
-    order: 2;
-    margin-top: auto;
-    margin-bottom: auto;
   }
 
 /* Matthias CSS */
@@ -82,15 +62,45 @@
   
   .About-matthias img {
     order: 2;
+    width: 100%;
+    height: auto;
     transform: translateX(100%);
     transition: transform 1s;
   }
-  
-  .beschreibung_links {
+
+  /* Texte */
+
+  .beschreibung_links_kerstin {
     order: 1;
+    font-size: 1.2rem;
     margin-top: auto;
     margin-bottom: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
   }
+
+  .beschreibung_links {
+    order: 1;
+    font-size: 1.2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+  }
+
+  .beschreibung_rechts {
+    order: 2;
+    font-size: 1.2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: right;
+  }
+
+  /* Animationen */
 
   .animate-from-right {
     opacity: 1;

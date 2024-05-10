@@ -10,6 +10,9 @@ function About() {
     const kerstinImage = document.querySelector('.About-kerstin img');
     kerstinImage.classList.add('animate-from-right');
 
+    const kerstinAbout = document.querySelector('.beschreibung_links_kerstin');
+    kerstinAbout.classList.add('animate-from-left');
+
     // Scroll-Handler hinzufügen
     window.addEventListener('scroll', handleScroll);
 
@@ -35,13 +38,30 @@ function About() {
         element.classList.add('animate-from-left');
       }
     });
+
+    const beschreibungLinksElements = document.querySelectorAll('.beschreibung_links');
+    beschreibungLinksElements.forEach((element) => {
+      const elementPosition = element.getBoundingClientRect().top + (element.offsetHeight / 2);
+      if (elementPosition < window.innerHeight && elementPosition > 0) {
+        element.classList.add('animate-from-left');
+      }
+    });
+
+    const beschreibungRechtsElements = document.querySelectorAll('.beschreibung_rechts');
+    beschreibungRechtsElements.forEach((element) => {
+      const elementPosition = element.getBoundingClientRect().top + (element.offsetHeight / 2);
+      if (elementPosition < window.innerHeight && elementPosition > 0) {
+        element.classList.add('animate-from-right');
+      }
+    });
+    
   };
  
   return (
     <div className="About-main">
       <div className="About-kerstin">
         <img src="/images/about-kerstin.png" alt="saengerin tight kerstin"></img>
-        <div className="beschreibung_links">
+        <div className="beschreibung_links_kerstin">
           <h2>Kerstin Pfautsch - Vocals</h2>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
