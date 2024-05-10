@@ -6,8 +6,8 @@
   
   .About-kerstin img {
     order: 2;
-    width: 100%;
-    height: auto;
+    width: 40vw;
+    height: 40vw;
     transform: translateX(100%);
     transition: transform 1s;
   }
@@ -20,8 +20,8 @@
   
   .About-stephan img {
     order: 1;
-    width: 100%;
-    height: auto;
+    width: 40vw;
+    height: 40vw;
     transform: translateX(-100%);
     transition: transform 1s;
   }
@@ -34,8 +34,8 @@
   
   .About-bernd img {
     order: 2;
-    width: 55%;
-    height: auto;
+    width: 40vw;
+    height: 40vw;
     transform: translateX(100%);
     transition: transform 1s;
   }
@@ -48,8 +48,8 @@
   
   .About-joerg img {
     order: 1;
-    width: 100%;
-    height: auto;
+    width: 40vw;
+    height: 40vw;
     transform: translateX(-100%);
     transition: transform 1s;
   }
@@ -62,8 +62,8 @@
   
   .About-matthias img {
     order: 2;
-    width: 100%;
-    height: auto;
+    width: 40vw;
+    height: 40vw;
     transform: translateX(100%);
     transition: transform 1s;
   }
