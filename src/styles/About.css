@@ -88,6 +88,8 @@
     padding-left: 10%;
     padding-right: 10%;
     text-align: left;
+    transform: translateX(-100%);
+    transition: transform 1s;
   }
 
   .beschreibung_rechts {
@@ -98,6 +100,8 @@
     padding-left: 10%;
     padding-right: 10%;
     text-align: right;
+    transform: translateX(100%);
+    transition: transform 1s;
   }
 
   /* Animationen */
