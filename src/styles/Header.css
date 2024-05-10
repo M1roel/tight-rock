@@ -55,5 +55,5 @@
   
 @font-face {
     font-family: 'EngraversOldEnglish';
-    src: url('./fonts/OPTIEngraversOldEnglish.otf') format('opentype');
+    src: url('../fonts/OPTIEngraversOldEnglish.otf') format('opentype');
   }
