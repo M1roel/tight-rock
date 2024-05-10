@@ -5,8 +5,8 @@
 
 .App-header {
   background-color: #282c34;
-  display: flex;
-  flex-direction: column;
+  display: grid; /* Grid-Layout verwenden */
+  grid-template-columns: 1fr; /* Eine Spalte */
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -14,7 +14,7 @@
 }
 
 .Navbar {
-  background-color: #282c34;
+  background-color: #1f232e;
   padding-top: 10px;
   padding-bottom: 10px;
   position: sticky;
@@ -45,13 +45,6 @@
   color: white; /* Setzt die Schriftfarbe auf Weiß */
   text-decoration: none; /* Entfernt Unterstreichungen von Links */
   font-family: Arial, sans-serif; /* Setzt die Schriftart auf Arial */
-}
-
-.Bandfoto {
-  width: 99vw;       /* Breite des Bildes auf 100% der Viewport-Breite setzen */
-  height: auto;       /* Automatische Anpassung der Höhe */
-  margin-top: 0px;      /* Oberer Abstand auf 0 setzen */
-  margin-bottom: 40px; /* Unterer Abstand */
 }
 
 .Body {

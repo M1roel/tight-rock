@@ -1,13 +1,23 @@
 .Image-container {
-    position: relative; /* Positionierung relativ zum Container */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
+  }
+ 
+  .Bandfoto {
+    opacity: 0;
+    transform: translateX(-100%) scaleX(-1);
+    animation: slideFromLeft 1s forwards;
+    max-width: 100%;
+    height: auto;
+    bottom: 0;
   }
   
-  .Text-overlay {
-    position: absolute; /* Positionierung absolut innerhalb des Containers */
-    top: 50%; /* Vertikal zentriert */
-    left: 75%; /* Horizontal zentriert */
-    transform: translate(-50%, -50%); /* Zentrierung des Textes */
-    text-align: center; /* Zentrierung des Textes */
+  .Schriftzug {
+    margin-top: auto; /* Zentriere vertikal */
+    margin-bottom: auto; /* Zentriere vertikal */
+    
   }
 
   .Tight, .FemaleFronted {
@@ -52,8 +62,26 @@
       transform: translateX(0); /* Ende mit einer Verschiebung um 0 (keine Verschiebung) */
     }
   }
+
+  @keyframes slideFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }  
   
 @font-face {
     font-family: 'EngraversOldEnglish';
     src: url('./fonts/OPTIEngraversOldEnglish.otf') format('opentype');
+  }
+
+  .Header-bottom-bar {
+    width: 100%; /* Fülle die gesamte Breite des Headers */
+    height: 10px; /* Definiere die Höhe des Balkens */
+    background-color: #1f232e; /* Setze die Hintergrundfarbe des Balkens */
+    bottom: 0; /* Platziere den Balken am unteren Rand des Headers */
   }
