@@ -6,12 +6,16 @@
   
   .About-kerstin img {
     order: 2;
+    transform: translateX(100%);
+    transition: transform 1s;
   }
   
   .beschreibung_links {
     order: 1;
     margin-top: auto;
     margin-bottom: auto;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
 /* Stephan CSS */
@@ -22,12 +26,16 @@
   
   .About-stephan img {
     order: 1;
+    transform: translateX(-100%);
+    transition: transform 1s;
   }
   
   .beschreibung_rechts {
     order: 2;
     margin-top: auto;
     margin-bottom: auto;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
 /* Bernd CSS */
@@ -38,6 +46,8 @@
   
   .About-bernd img {
     order: 2;
+    transform: translateX(100%);
+    transition: transform 1s;
   }
   
   .beschreibung_links {
@@ -54,6 +64,8 @@
   
   .About-joerg img {
     order: 1;
+    transform: translateX(-100%);
+    transition: transform 1s;
   }
   
   .beschreibung_rechts {
@@ -70,6 +82,8 @@
   
   .About-matthias img {
     order: 2;
+    transform: translateX(100%);
+    transition: transform 1s;
   }
   
   .beschreibung_links {
@@ -77,3 +91,36 @@
     margin-top: auto;
     margin-bottom: auto;
   }
+
+  .animate-from-right {
+    opacity: 1;
+    animation: slideFromRight 1s forwards;
+  }
+  
+  .animate-from-left {
+    opacity: 1;
+    animation: slideFromLeft 1s forwards;
+  }
+  
+  @keyframes slideFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  

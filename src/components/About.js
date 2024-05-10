@@ -1,7 +1,42 @@
+import React, { useEffect } from "react";
+
 import "../styles/About.css";
 import "../styles/App.css";
 
 function About() {
+
+  useEffect(() => {
+    // Nach dem Rendern das Bild von Kerstin animieren
+    const kerstinImage = document.querySelector('.About-kerstin img');
+    kerstinImage.classList.add('animate-from-right');
+
+    // Scroll-Handler hinzufügen
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup-Funktion für den Effekt
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  
+  const handleScroll = () => {
+    const kerstinBerndMatthiasElements = document.querySelectorAll('.About-bernd img, .About-matthias img');
+    kerstinBerndMatthiasElements.forEach((element) => {
+      const elementPosition = element.getBoundingClientRect().top + (element.offsetHeight / 2); // Position des Bildes relativ zur Mitte des Bildes berechnen
+      if (elementPosition < window.innerHeight && elementPosition > 0) { // Überprüfen, ob das Bild zur Hälfte im sichtbaren Bereich des Browserfensters liegt
+        element.classList.add('animate-from-right');
+      }
+    });
+
+    const stephanJoergElements = document.querySelectorAll('.About-stephan img, .About-joerg img');
+    stephanJoergElements.forEach((element) => {
+      const elementPosition = element.getBoundingClientRect().top + (element.offsetHeight / 2); // Position des Bildes relativ zur Mitte des Bildes berechnen
+      if (elementPosition < window.innerHeight && elementPosition > 0) { // Überprüfen, ob das Bild zur Hälfte im sichtbaren Bereich des Browserfensters liegt
+        element.classList.add('animate-from-left');
+      }
+    });
+  };
+ 
   return (
     <div className="About-main">
       <div className="About-kerstin">
