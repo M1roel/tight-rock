@@ -1,0 +1,89 @@
+/* Kerstin CSS */
+
+.About-kerstin {
+    display: flex; /* Verwende Flexbox */
+  }
+  
+  .About-kerstin img {
+    /* Du möchtest das Bild in der zweiten Spalte haben, daher musst du die Reihenfolge ändern */
+    order: 2; /* Verschiebe das Bild in den zweiten Platz */
+  }
+  
+  .beschreibung_1 {
+    /* Überschrift und Absatz sollten in der ersten Spalte bleiben */
+    order: 1; /* Behalte die Reihenfolge bei */
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+/* Stephan CSS */
+
+.About-stephan {
+    display: flex; /* Verwende Flexbox */
+  }
+  
+  .About-stephan img {
+    /* Du möchtest das Bild in der zweiten Spalte haben, daher musst du die Reihenfolge ändern */
+    order: 1; /* Verschiebe das Bild in den zweiten Platz */
+  }
+  
+  .beschreibung_2 {
+    /* Überschrift und Absatz sollten in der ersten Spalte bleiben */
+    order: 2; /* Behalte die Reihenfolge bei */
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+/* Bernd CSS */
+
+.About-bernd {
+    display: flex; /* Verwende Flexbox */
+  }
+  
+  .About-bernd img {
+    /* Du möchtest das Bild in der zweiten Spalte haben, daher musst du die Reihenfolge ändern */
+    order: 2; /* Verschiebe das Bild in den zweiten Platz */
+  }
+  
+  .beschreibung_1 {
+    /* Überschrift und Absatz sollten in der ersten Spalte bleiben */
+    order: 1; /* Behalte die Reihenfolge bei */
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+/* Joerg CSS */
+
+.About-joerg {
+    display: flex; /* Verwende Flexbox */
+  }
+  
+  .About-joerg img {
+    /* Du möchtest das Bild in der zweiten Spalte haben, daher musst du die Reihenfolge ändern */
+    order: 1; /* Verschiebe das Bild in den zweiten Platz */
+  }
+  
+  .beschreibung_2 {
+    /* Überschrift und Absatz sollten in der ersten Spalte bleiben */
+    order: 2; /* Behalte die Reihenfolge bei */
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+/* Matthias CSS */
+
+.About-matthias {
+    display: flex; /* Verwende Flexbox */
+  }
+  
+  .About-matthias img {
+    /* Du möchtest das Bild in der zweiten Spalte haben, daher musst du die Reihenfolge ändern */
+    order: 2; /* Verschiebe das Bild in den zweiten Platz */
+  }
+  
+  .beschreibung_1 {
+    /* Überschrift und Absatz sollten in der ersten Spalte bleiben */
+    order: 1; /* Behalte die Reihenfolge bei */
+    margin-top: auto;
+    margin-bottom: auto;
+  }
