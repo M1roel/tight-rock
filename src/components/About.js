@@ -23,7 +23,7 @@ function About() {
   }, []);
   
   const handleScroll = () => {
-    const kerstinBerndMatthiasElements = document.querySelectorAll('.About-bernd img, .About-matthias img');
+    const kerstinBerndMatthiasElements = document.querySelectorAll('.About-bernd img, .About-mathias img');
     kerstinBerndMatthiasElements.forEach((element) => {
       const elementPosition = element.getBoundingClientRect().top + (element.offsetHeight / 2); // Position des Bildes relativ zur Mitte des Bildes berechnen
       if (elementPosition < window.innerHeight && elementPosition > 0) { // Überprüfen, ob das Bild zur Hälfte im sichtbaren Bereich des Browserfensters liegt
@@ -62,7 +62,7 @@ function About() {
       <div className="About-kerstin">
         <img src="/images/about-kerstin.png" alt="saengerin tight kerstin"></img>
         <div className="beschreibung_links_kerstin">
-          <h2>Kerstin Pfautsch - Vocals</h2>
+          <h2>Kerstin - Vocals</h2>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
@@ -75,7 +75,7 @@ function About() {
       <div className="About-stephan">
         <img src="/images/about-stephan.png" alt="guitar tight stephan"></img>
         <div className="beschreibung_rechts">
-          <h2>Stephan Georg - Guitar</h2>
+          <h2>Stephan - Guitar</h2>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
@@ -111,10 +111,10 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="About-matthias">
-        <img src="/images/about-matthias.png" alt="guitar tight matthias"></img>
+      <div className="About-mathias">
+        <img src="/images/about-mathias.png" alt="guitar tight mathias"></img>
         <div className="beschreibung_links">
-          <h2>Matthias - Guitar</h2>
+          <h2>Mathias - Guitar</h2>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam

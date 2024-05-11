@@ -1,38 +1,42 @@
+/* App CSS */
+
 .App {
-  text-align: center;
-  background-color: #282c34;
+  text-align: center; /* Zentriert den Text horizontal */
+  background-color: #282c34; /* Hintergrundfarbe */
 }
 
 .App-header {
-  background-color: #282c34;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  margin-bottom: 0px;
+  background-color: #282c34; /* Hintergrundfarbe */
+  display: flex; /* Aktiviert Flexbox */
+  flex-direction: column; /* Stapelt die Elemente vertikal */
+  align-items: center; /* Zentriert die Elemente horizontal */
+  font-size: calc(10px + 2vmin); /* Dynamische Schriftgröße basierend auf Viewport-Größe */
+  color: white; /* Textfarbe */
+  margin-bottom: 0px; /* Unteren Abstand auf 0 setzen */
 }
 
+/* Navbar CSS */
+
 .Navbar {
-  background-color: #282c34;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  transition: all 0.3s ease; /* Sanfter Übergang */
+  background-color: #282c34; /* Hintergrundfarbe */
+  padding-top: 10px; /* Oberen Innenabstand */
+  padding-bottom: 10px; /* Unteren Innenabstand */
+  position: sticky; /* Positioniert das Element relativ zum Viewport */
+  top: 0; /* Oben an der Seite positionieren */
+  z-index: 1000; /* Stapelt das Element über anderen Inhalten */
+  transition: all 0.3s ease; /* Sanfter Übergang für alle Eigenschaften */
 }
 
 .Navbar--scrolled {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 0.6em; /* Beispiel für eine verkleinerte Schriftgröße */
+  padding-top: 5px; /* Angepasster oberer Innenabstand nach dem Scrollen */
+  padding-bottom: 5px; /* Angepasster unterer Innenabstand nach dem Scrollen */
+  font-size: 0.6em; /* Verkleinerte Schriftgröße für den gescrollten Zustand */
 }
 
 .Navbar ul {
   list-style-type: none; /* Entfernt die Aufzählungszeichen */
-  margin: 0;
-  padding: 0;
+  margin: 0; /* Äußerer Abstand auf 0 setzen */
+  padding: 0; /* Inneren Abstand auf 0 setzen */
   display: flex; /* Aktiviert Flexbox */
   justify-content: space-around; /* Zentriert und verteilt die Elemente gleichmäßig */
 }
@@ -47,78 +51,120 @@
   font-family: Arial, sans-serif; /* Setzt die Schriftart auf Arial */
 }
 
+/* Header Bild CSS */
+
 .Bandfoto {
-  width: 99vw;       /* Breite des Bildes auf 100% der Viewport-Breite setzen */
-  height: auto;       /* Automatische Anpassung der Höhe */
-  margin-top: 0px;      /* Oberer Abstand auf 0 setzen */
-  margin-bottom: 40px; /* Unterer Abstand */
+  width: 99vw; /* Breite des Bildes auf 100% der Viewport-Breite setzen */
+  height: auto; /* Automatische Anpassung der Höhe */
+  margin-top: 0px; /* Oberen Abstand auf 0 setzen */
+  margin-bottom: 40px; /* Unteren Abstand */
 }
 
+/* Body CSS */
+
 .Body {
-  background-color: #282c34;
+  background-color: #282c34; /* Hintergrundfarbe */
+}
+
+/* Tour CSS */
+
+.Tour-main {
+  display: flex; /* Aktiviert Flexbox */
+  justify-content: center; /* Zentriert den Inhalt horizontal */
 }
 
 .Tour-container {
-  background-color: #282c34;
-  color: white;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 0;
-  padding-bottom: 0;
+  order: 1; /* Ändert die Reihenfolge im Flex-Container */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  background-color: #282c34; /* Hintergrundfarbe */
+  color: white; /* Textfarbe */
+  margin: 0 auto; /* Setzt den äußeren Abstand auf oben/unten 0 und links/rechts automatisch */
+  padding: 0; /* Inneren Abstand auf 0 setzen */
 }
 
 .Tour-container ul {
   list-style-type: none; /* Entfernt die Aufzählungszeichen */
-  margin-top: 0;
-  margin-bottom: 80px;
-  padding-top: 0;
-  padding-bottom: 0;
-  list-style-type: none;
-  padding: 0;
+  margin: 0; /* Äußerer Abstand auf 0 setzen */
+  padding: 0; /* Inneren Abstand auf 0 setzen */
   text-align: center; /* Ändert die Ausrichtung auf zentriert */
 }
 
 .Tour-container li {
-  margin: 0 15px;
-  padding: 10px;
+  margin: 0 15px; /* Fügt etwas Abstand zwischen den Elementen hinzu */
+  padding: 10px; /* Inneren Abstand für Listenpunkte */
 }
 
-.Year-container h2{
-  background-color: #282c34;
-  color: white;
-  margin-top: 0;
-  margin-bottom: 40px;
-  padding-top: 0;
-  padding-bottom: 0;
-  text-align: center; /* Ändert die Ausrichtung auf zentriert */
+.Tour-station {
+  order: 2; /* Ändert die Reihenfolge im Flex-Container */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  background-color: #282c34; /* Hintergrundfarbe */
+  color: white; /* Textfarbe */
+  text-align: center; /* Zentriert den Text horizontal */
+  margin: 0 auto; /* Setzt den äußeren Abstand auf oben/unten 0 und links/rechts automatisch */
 }
+
+.Tour-foto {
+  width: 40vw; /* Breite des Bildes auf 40% der Viewport-Breite setzen */
+  height: auto; /* Automatische Anpassung der Höhe */
+  margin-bottom: 80px; /* Unteren Abstand */
+}
+
+/* CSS für kleine Bildschirme (z.B. Smartphones) */
+@media screen and (max-width: 600px) {
+  .Tour-main {
+    flex-direction: column; /* Ändert die Ausrichtung der Flex-Elemente auf vertikal */
+  }
+
+  .Tour-container,
+  .Tour-station {
+    margin: 30px; /* Entfernt den horizontalen Abstand zwischen den Spalten */
+  }
+}
+
+/* Carousel CSS */
 
 .Carousel-container {
-  width: 50%;
-  margin: auto;
-  background-color: #282c34;
-  border: 1px solid #ccc;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 50%; /* Breite des Containers auf 50% des Elternelements setzen */
+  margin: auto; /* Zentriert den Container horizontal */
+  background-color: #282c34; /* Hintergrundfarbe */
+  border: 1px solid #ccc; /* Rand um den Container */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Schatten um den Container */
 }
 
+/* Footer CSS */
+
 .Footer-main {
-  background-color: #282c34;
-  color: white;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 100px;
-  padding-bottom: 10px;
+  background-color: #282c34; /* Hintergrundfarbe */
+  color: white; /* Textfarbe */
+  margin-top: 0; /* Oberen Abstand auf 0 setzen */
+  margin-bottom: 0; /* Unteren Abstand auf 0 setzen */
+  padding-top: 100px; /* Oberen Innenabstand */
+  padding-bottom: 10px; /* Unteren Innenabstand */
 }
 
 .Footer-main a {
   text-decoration: none; /* Entfernt den Unterstrich */
 }
 
+/* About CSS */
+
 .About-main {
-  background-color: #282c34;
-  color: white;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 100px;
-  padding-bottom: 10px;
+  background-color: #282c34; /* Hintergrundfarbe */
+  color: white; /* Textfarbe */
+  margin-top: 0; /* Oberen Abstand auf 0 setzen */
+  margin-bottom: 0; /* Unteren Abstand auf 0 setzen */
+  padding-top: 100px; /* Oberen Innenabstand */
+  padding-bottom: 10px; /* Unteren Innenabstand */
+}
+
+/* Kontakt CSS */
+
+.Kontakt-main {
+  width: 50%;
+  background-color: #282c34; /* Hintergrundfarbe */
+  color: white; /* Textfarbe */
+  margin-top: 0; /* Oberen Abstand auf 0 setzen */
+  margin-bottom: 0; /* Unteren Abstand auf 0 setzen */
+  padding-top: 100px; /* Oberen Innenabstand */
+  padding-bottom: 10px; /* Unteren Innenabstand */
 }

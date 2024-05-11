@@ -36,6 +36,8 @@
     order: 2;
     width: 40vw;
     height: 40vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
     transform: translateX(100%);
     transition: transform 1s;
   }
@@ -54,13 +56,13 @@
     transition: transform 1s;
   }
 
-/* Matthias CSS */
+/* Mathias CSS */
 
-.About-matthias {
+.About-mathias {
     display: flex;
   }
   
-  .About-matthias img {
+  .About-mathias img {
     order: 2;
     width: 40vw;
     height: 40vw;
