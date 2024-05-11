@@ -10,7 +10,7 @@ function Body() {
         <h2>Tour {tourYear}</h2>
           <ul>
             <li>11.05.2024 - Wesseling, Rheinklang 669-Festival, Kulisse</li>
-            <li>21.06.2024 - Herdecke. Rockstarter Open Air</li>
+            <li>21.06.2024 - Herdecke, Rockstarter Open Air</li>
             <li>20.07.2024 - Krefeld, Uerdingen, Fuchs-Festival</li>
             <li>27.07.2024 - Postillion, Bergisch Gladbach</li>
             <li>28.09.2024 - Flora 6, Köln</li>
