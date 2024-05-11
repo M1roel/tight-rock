@@ -159,12 +159,16 @@
 
 /* Kontakt CSS */
 
+.Kontakt-container {
+  display: flex;
+  justify-content: center; /* Zentriert den Inhalt horizontal */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  height: 100vh; /* Setzt die Höhe auf die volle Bildschirmhöhe */
+}
+
 .Kontakt-main {
   width: 50%;
   background-color: #282c34; /* Hintergrundfarbe */
   color: white; /* Textfarbe */
-  margin-top: 0; /* Oberen Abstand auf 0 setzen */
-  margin-bottom: 0; /* Unteren Abstand auf 0 setzen */
-  padding-top: 100px; /* Oberen Innenabstand */
-  padding-bottom: 10px; /* Unteren Innenabstand */
+  padding: 20px; /* Innenabstand */
 }
