@@ -82,7 +82,7 @@
   align-items: center; /* Zentriert den Inhalt vertikal */
   background-color: #282c34; /* Hintergrundfarbe */
   color: white; /* Textfarbe */
-  margin: 0 auto; /* Setzt den äußeren Abstand auf oben/unten 0 und links/rechts automatisch */
+  margin: 0 2%; /* Setzt den äußeren Abstand auf oben/unten 0 und links/rechts automatisch */
   padding: 0; /* Inneren Abstand auf 0 setzen */
 }
 
@@ -107,7 +107,7 @@
   background-color: #282c34; /* Hintergrundfarbe */
   color: white; /* Textfarbe */
   text-align: center; /* Zentriert den Text horizontal */
-  margin: 0 auto; /* Setzt den äußeren Abstand auf oben/unten 0 und links/rechts automatisch */
+  margin: 0 2%; /* Setzt den äußeren Abstand auf oben/unten 0 und links/rechts automatisch */
 }
 
 .Tour-foto {
