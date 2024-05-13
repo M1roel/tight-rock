@@ -23,16 +23,16 @@ function About() {
   }, []);
   
   const handleScroll = () => {
-    const kerstinBerndMatthiasElements = document.querySelectorAll('.About-bernd img, .About-mathias img');
-    kerstinBerndMatthiasElements.forEach((element) => {
+    const rightElements = document.querySelectorAll('.About-mathias img'); // Hier Bilder einfügen
+    rightElements.forEach((element) => {
       const elementPosition = element.getBoundingClientRect().top + (element.offsetHeight / 2); // Position des Bildes relativ zur Mitte des Bildes berechnen
       if (elementPosition < window.innerHeight && elementPosition > 0) { // Überprüfen, ob das Bild zur Hälfte im sichtbaren Bereich des Browserfensters liegt
         element.classList.add('animate-from-right');
       }
     });
 
-    const stephanJoergElements = document.querySelectorAll('.About-stephan img, .About-joerg img');
-    stephanJoergElements.forEach((element) => {
+    const leftElements = document.querySelectorAll('.About-stephan img, .About-joerg img'); // Hier Bilder einfügen
+    leftElements.forEach((element) => {
       const elementPosition = element.getBoundingClientRect().top + (element.offsetHeight / 2); // Position des Bildes relativ zur Mitte des Bildes berechnen
       if (elementPosition < window.innerHeight && elementPosition > 0) { // Überprüfen, ob das Bild zur Hälfte im sichtbaren Bereich des Browserfensters liegt
         element.classList.add('animate-from-left');
@@ -86,9 +86,9 @@ function About() {
         </div>
       </div>
       <div className="About-bernd">
-        <img src="/images/about-bernd.png" alt="drums tight bernd"></img>
+        <img src="" alt="drums tight "></img>
         <div className="beschreibung_links">
-          <h2>Bernd - Drums</h2>
+          <h2>Derzeit unbesetzt - Drums</h2>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
