@@ -1,4 +1,5 @@
 import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
 function Kontakt() {
     return (
@@ -11,7 +12,8 @@ function Kontakt() {
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
               <Form.Label>Deine Nachricht an uns</Form.Label>
-              <Form.Control as="textarea" rows={3} />
+              <Form.Control as="textarea" rows={5} />
+              <Button variant="primary" type="submit">Senden</Button>
             </Form.Group>
           </Form>
         </div>
