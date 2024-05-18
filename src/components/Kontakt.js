@@ -11,7 +11,7 @@ function Kontakt() {
     };
 
     try {
-      const response = await fetch('/sendenachricht', {
+      const response = await fetch('http://localhost:3001/sendEmail', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
