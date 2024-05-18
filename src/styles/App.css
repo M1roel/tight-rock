@@ -187,3 +187,13 @@
 .Kontakt-button {
   margin-top: 5%;
 }
+
+/* Tourdaten CSS */
+.Tourdaten-main {
+  background-color: #282c34; /* Hintergrundfarbe */
+  color: white; /* Textfarbe */
+  margin-top: 0; /* Oberen Abstand auf 0 setzen */
+  margin-bottom: 0; /* Unteren Abstand auf 0 setzen */
+  padding-top: 100px; /* Oberen Innenabstand */
+  padding-bottom: 10px; /* Unteren Innenabstand */
+}

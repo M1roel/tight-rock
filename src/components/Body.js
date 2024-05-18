@@ -10,6 +10,7 @@ function Body() {
         <h2>Tour {tourYear}</h2>
           <ul>
             <li>11.05.2024 - Wesseling, Rheinklang 669-Festival, Kulisse</li>
+            <li>07.06.2024 - Grevenbroich, Rock Sommer Nacht</li>
             <li>21.06.2024 - Herdecke, Rockstarter Open Air</li>
             <li>20.07.2024 - Krefeld, Uerdingen, Fuchs-Festival</li>
             <li>27.07.2024 - Postillion, Bergisch Gladbach</li>
@@ -23,8 +24,8 @@ function Body() {
         </div>
         <div className="Tour-station">
           <h3>Nächste Station</h3>
-          <p>3. Rockstarter Open Air Festival - Herdecke: 21:30 Uhr "Tight" </p>
-          <img src="/images/Rheinklang.png" alt="Rehinklang 669 2024" className="Tour-foto"></img>
+          <p>Rock Sommer Nacht - Grevenbroich: 19:00 Uhr "Tight" </p>
+          <img src="/images/Rheinklang.png" alt="Rocksommernacht 2024" className="Tour-foto"></img>
         </div>
       </div>
       <div className="Carousel-container">

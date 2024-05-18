@@ -1,0 +1,26 @@
+.Tourdaten-left {
+    display: flex;
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+  }
+  
+  .Tourdaten-content {
+    display: flex;
+    width: 80%; /* Breite des Inhalts anpassen */
+  }
+  
+  .Rock-sommer-nacht-text {
+    flex: 1; /* Der Text nimmt so viel Platz wie möglich ein */
+  }
+  
+  .Rock-sommer-nacht-bild {
+    flex: 1; /* Das Bild nimmt so viel Platz wie möglich ein */
+    display: flex;
+    justify-content: center; /* Bild nach rechts ausrichten */
+    align-items: center; /* Zentriert das Bild vertikal */
+  }
+  
+  .Rock-sommer-nacht-bild img {
+    max-width: 100%; /* Maximale Breite des Bildes */
+    max-height: 100%; /* Maximale Höhe des Bildes */
+  }
+  
