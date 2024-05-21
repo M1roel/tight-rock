@@ -114,7 +114,7 @@ function About() {
       <div className="About-mathias">
         <img src="/images/about-mathias.png" alt="guitar tight mathias"></img>
         <div className="beschreibung_links">
-          <h2>Mathias - Guitar</h2>
+          <h2>M.D. - Guitar</h2>
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
