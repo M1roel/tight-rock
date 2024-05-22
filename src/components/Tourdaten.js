@@ -45,7 +45,7 @@ function Tourdaten() {
 
       <div className="Tourdaten-block">
         <div className="Tourdaten-text">
-          <h2>Herdecke, Rockstarter Open Air</h2>
+          <h2>Krefeld-Uerdingen - Fuchs Festival</h2>
           <p>
             Das Fuchsfestival in Krefeld, Uerdingen, ist ein mit Spannung
             erwartetes Musikfestival, das am 20. Juli 2024 stattfindet. Dieses
