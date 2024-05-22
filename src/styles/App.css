@@ -86,7 +86,7 @@
   order: 1; /* Ändert die Reihenfolge im Flex-Container */
   background-color: #282c34; /* Hintergrundfarbe */
   color: white; /* Textfarbe */
-  margin: 15px 2%; /* Setzt den äußeren Abstand auf oben/unten 0 und links/rechts automatisch */
+  margin: 15px 2%; /* Setzt den äußeren Abstand auf oben/unten 15 und links/rechts automatisch */
   padding: 0; /* Inneren Abstand auf 0 setzen */
 }
 
