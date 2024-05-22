@@ -15,6 +15,15 @@
   margin-bottom: 0px; /* Unteren Abstand auf 0 setzen */
 }
 
+.Bandfoto {
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+
 /* Navbar CSS */
 
 .Navbar {
@@ -53,15 +62,6 @@
 
 .Navbar a:hover {
   color: coral;
-}
-
-/* Header Bild CSS */
-
-.Bandfoto {
-  width: 99vw; /* Breite des Bildes auf 100% der Viewport-Breite setzen */
-  height: auto; /* Automatische Anpassung der Höhe */
-  margin-top: 0px; /* Oberen Abstand auf 0 setzen */
-  margin-bottom: 5%; /* Unteren Abstand */
 }
 
 /* Body CSS */
