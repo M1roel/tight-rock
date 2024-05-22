@@ -71,20 +71,22 @@
 .Tour-main {
   display: flex; /* Aktiviert Flexbox */
   justify-content: center; /* Zentriert den Inhalt horizontal */
+  align-items: center;
+  
+  border-radius: 10px; /* Optional: Runde die Ecken des Rahmens ab */
+  border: 2px solid aliceblue; /* Rahmen mit einer Dicke von 2px und der Farbe aliceblue */
   margin-bottom: 5%;
   margin-left: 5%; /* Linker Abstand */
   margin-right: 5%; /* Rechter Abstand */
 }
 
 .Tour-container {
-  border: 2px solid aliceblue; /* Rahmen mit einer Dicke von 2px und der Farbe aliceblue */
   border-radius: 10px; /* Optional: Runde die Ecken des Rahmens ab */
   padding: 20px; /* Füge Innenabstand zum Inhalt hinzu, damit der Inhalt nicht am Rahmen anliegt */
   order: 1; /* Ändert die Reihenfolge im Flex-Container */
-  align-items: center; /* Zentriert den Inhalt vertikal */
   background-color: #282c34; /* Hintergrundfarbe */
   color: white; /* Textfarbe */
-  margin: 0 2%; /* Setzt den äußeren Abstand auf oben/unten 0 und links/rechts automatisch */
+  margin: 15px 2%; /* Setzt den äußeren Abstand auf oben/unten 0 und links/rechts automatisch */
   padding: 0; /* Inneren Abstand auf 0 setzen */
 }
 
@@ -101,8 +103,6 @@
 }
 
 .Tour-station {
-  border: 2px solid aliceblue; /* Rahmen mit einer Dicke von 2px und der Farbe aliceblue */
-  border-radius: 10px; /* Optional: Runde die Ecken des Rahmens ab */
   padding: 20px; /* Füge Innenabstand zum Inhalt hinzu, damit der Inhalt nicht am Rahmen anliegt */
   order: 2; /* Ändert die Reihenfolge im Flex-Container */
   align-items: center; /* Zentriert den Inhalt vertikal */
@@ -115,7 +115,6 @@
 .Tour-foto {
   width: 40vw; /* Breite des Bildes auf 40% der Viewport-Breite setzen */
   height: auto; /* Automatische Anpassung der Höhe */
-  margin-bottom: 80px; /* Unteren Abstand */
 }
 
 /* CSS für kleine Bildschirme (z.B. Smartphones) */
