@@ -26,7 +26,7 @@ function Navbar() {
     <div className={isScrolled ? 'Navbar Navbar--scrolled' : 'Navbar'}>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="https://tight-rock.myspreadshop.de/">Merge</a></li>
+                <li><a href="https://tight-rock.myspreadshop.de/">Merch</a></li>
                 <li><a href="/tourdaten">Tourdaten</a></li>
                 <li><a href="/kontakt">Kontakt</a></li>
                 <li><a href="/about">Über uns</a></li>
