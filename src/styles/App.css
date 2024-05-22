@@ -51,6 +51,10 @@
   font-family: Arial, sans-serif; /* Setzt die Schriftart auf Arial */
 }
 
+.Navbar a:hover {
+  color: coral;
+}
+
 /* Header Bild CSS */
 
 .Bandfoto {

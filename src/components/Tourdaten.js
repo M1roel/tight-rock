@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import "../styles/App.css";
 import "../styles/Tourdaten.css";
 
@@ -19,7 +18,7 @@ function Tourdaten() {
           <span>Am 07.06.2024 findet ihr uns ab 19.00 Uhr auf der Bühne</span>
         </div>
         <div className="Tourdaten-bild">
-          <img src="/images/rock-sommer-nacht-2024.jpg"></img>
+          <img src="/images/rock-sommer-nacht-2024.jpg" alt="rock-sommer-nacht-2024"></img>
         </div>
       </div>
 
@@ -39,7 +38,7 @@ function Tourdaten() {
           </p>
         </div>
         <div className="Tourdaten-bild">
-          <img src="/images/rockstarter.png"></img>
+          <img src="/images/rockstarter.png" alt="rockstarter-festival-2024"></img>
         </div>
       </div>
 
@@ -57,7 +56,7 @@ function Tourdaten() {
           </p>
         </div>
         <div className="Tourdaten-bild">
-          <img src="/images/fuchs-festival.png"></img>
+          <img src="/images/fuchs-festival.png" alt="fuchs-festival-2024"></img>
         </div>
       </div>
     </div>
