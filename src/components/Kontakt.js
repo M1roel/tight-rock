@@ -7,7 +7,7 @@ function Kontakt() {
     event.preventDefault(); // Verhindern des Standardverhaltens des Formulars
     const formData = {
       email: event.target.elements.email.value,
-      nachricht: event.target.elements.nachricht.value
+      message: event.target.elements.nachricht.value
     };
 
     try {
