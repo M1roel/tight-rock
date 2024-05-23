@@ -11,7 +11,7 @@ function Kontakt() {
     };
 
     try {
-      const response = await fetch('http://localhost:3001/sendEmail', {
+      const response = await fetch('https://tight-rock.de/sendEmail', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

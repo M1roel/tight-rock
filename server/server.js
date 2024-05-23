@@ -10,7 +10,11 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 
 // CORS-Middleware
-app.use(cors());
+app.use(cors({
+  origin: 'https://tight-rock.de', // Erlaubt Anfragen nur von Ihrer Domain
+  methods: 'POST',
+  allowedHeaders: 'Content-Type'
+}));
 
 // POST-Route zum Senden der E-Mail
 app.post('/sendEmail', async (req, res) => {
