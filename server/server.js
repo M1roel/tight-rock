@@ -10,14 +10,11 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 
 // CORS-Middleware
-app.use(cors({
-  origin: 'https://tight-rock.de/kontakt', // Erlaubt Anfragen nur von Ihrer Domain
-  methods: 'POST',
-  allowedHeaders: 'Content-Type'
-}));
+app.use(cors());
 
 // POST-Route zum Senden der E-Mail
 app.post('/sendEmail', async (req, res) => {
+  console.log('Empfangene Anfrage:', req.body);
   const { email: userEmail, message } = req.body; // Umbenennung von 'email' zu 'userEmail' um Konflikte zu vermeiden
 
   // Konfiguration des E-Mail-Transports
@@ -44,6 +41,9 @@ app.post('/sendEmail', async (req, res) => {
     res.status(200).send('E-Mail erfolgreich gesendet');
   } catch (error) {
     console.error('Fehler beim Senden der E-Mail:', error);
+    if (error.response) {
+      console.error('SMTP Server Response:', error.response);
+    }
     res.status(500).send('Fehler beim Senden der E-Mail');
   }
 });
