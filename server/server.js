@@ -11,7 +11,7 @@ app.use(express.json());
 
 // CORS-Middleware
 app.use(cors({
-  origin: 'https://tight-rock.de', // Erlaubt Anfragen nur von Ihrer Domain
+  origin: 'https://tight-rock.de/kontakt', // Erlaubt Anfragen nur von Ihrer Domain
   methods: 'POST',
   allowedHeaders: 'Content-Type'
 }));
