@@ -15,12 +15,12 @@ app.post('/sendEmail', async (req, res) => {
   // Konfiguration des E-Mail-Transports
 let transporter = nodemailer.createTransport({
   host: 'smtp.strato.de', // Hostname des SMTP-Servers
-  port: 465, // Port für den SMTP-Server (kann variieren, je nach den Einstellungen von Strato)
+  port: true, // Port für den SMTP-Server (kann variieren, je nach den Einstellungen von Strato)
   secure: true, // Verwendung von SSL/TLS
   auth: {
     user: email, // Verwendung der 'email' Variable direkt
-    pass: passwort // Verwendung der 'passwort' Variable direkt
-  }
+    pass: passwort, // Verwendung der 'passwort' Variable direkt
+  },
 });
 
   // E-Mail-Optionen
