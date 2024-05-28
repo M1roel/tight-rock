@@ -15,7 +15,7 @@ function Tourdaten() {
             nur Herzen zum Tanzen bringt, sondern auch Gutes in unserer
             Gemeinschaft bewirkt.
           </p>
-          <span>Am 07.06.2024 findet ihr uns ab 19.00 Uhr auf der Bühne</span>
+          <span>Am 07.06.2024 findet ihr uns ab 20:45 Uhr auf der Bühne</span>
         </div>
         <div className="Tourdaten-bild">
           <img src="/images/rock-sommer-nacht-2024.jpg" alt="rock-sommer-nacht-2024"></img>
