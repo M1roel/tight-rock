@@ -44,7 +44,7 @@ function Kontakt() {
             <Form.Control as="textarea" name="nachricht" rows={5} required />
           </Form.Group>
           <Button className="Kontakt-button" variant="primary" type="submit">Senden</Button>
-        </Form>
+        </Form><br /><br />
         <p>Stephan Georg Schwenke<br />
         Booking & Management<br />
         Bergstraße 3<br />

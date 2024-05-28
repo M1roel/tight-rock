@@ -15,10 +15,13 @@ function Tourdaten() {
             nur Herzen zum Tanzen bringt, sondern auch Gutes in unserer
             Gemeinschaft bewirkt.
           </p>
-          <span>Am 07.06.2024 findet ihr uns ab 20:45 Uhr auf der Bühne</span>
+          <span>Am 07.06.2024, ab ca. 20:00 Uhr legen wir los!</span>
         </div>
         <div className="Tourdaten-bild">
-          <img src="/images/rock-sommer-nacht-2024.jpg" alt="rock-sommer-nacht-2024"></img>
+          <img
+            src="/images/rock-sommer-nacht-2024.jpg"
+            alt="rock-sommer-nacht-2024"
+          ></img>
         </div>
       </div>
 
@@ -38,7 +41,10 @@ function Tourdaten() {
           </p>
         </div>
         <div className="Tourdaten-bild">
-          <img src="/images/rockstarter.png" alt="rockstarter-festival-2024"></img>
+          <img
+            src="/images/rockstarter.png"
+            alt="rockstarter-festival-2024"
+          ></img>
         </div>
       </div>
 
@@ -48,11 +54,12 @@ function Tourdaten() {
           <p>
             Das Fuchsfestival in Krefeld, Uerdingen, ist ein mit Spannung
             erwartetes Musikfestival, das am 20. Juli 2024 stattfindet. Dieses
-            Event wird in einer gemütlichen Kneipe am Rhein ausgerichtet, die
-            für ihre entspannte Atmosphäre und ihre abwechslungsreichen
-            Veranstaltungen bekannt ist. Die Kneipe in Uerdingen bietet das
-            ganze Jahr über zahlreiche Events und Live-Musik-Abende an, bei
-            denen Musikliebhaber auf ihre Kosten kommen.
+            Event wird im Außenbereich der gemütlichen Kneipe am Rhein
+            ausgerichtet, die für ihre entspannte Atmosphäre und ihre
+            abwechslungsreichen Veranstaltungen bekannt ist. Die Kneipe in
+            Uerdingen bietet übrigens das ganze Jahr über zahlreiche Events und
+            Live-Musik-Abende an, bei denen Musikliebhaber auf ihre Kosten
+            kommen.
           </p>
         </div>
         <div className="Tourdaten-bild">
