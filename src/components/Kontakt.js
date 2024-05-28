@@ -44,6 +44,12 @@ function Kontakt() {
             <Button className="Kontakt-button" variant="primary" type="submit">Senden</Button>
           </Form.Group>
         </Form>
+        <p>Stephan Georg Schwenke<br />
+        Booking & Management<br />
+        Bergstraße 3<br />
+        41569 Rommerskirchen<br />
+        Tel.: 0172/2714564
+        </p>
       </div>
     </div>
   );
