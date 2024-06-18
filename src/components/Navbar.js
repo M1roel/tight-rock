@@ -28,6 +28,7 @@ function Navbar() {
                 <li><a href="/">Home</a></li>
                 <li><a href="https://tight-rock.myspreadshop.de/">Merch</a></li>
                 <li><a href="/tourdaten">Tourdaten</a></li>
+                <li><a href="/gallery">Gallerie</a></li>
                 <li><a href="/kontakt">Kontakt</a></li>
                 <li><a href="/about">Über uns</a></li>
             </ul>

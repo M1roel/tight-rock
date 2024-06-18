@@ -1,0 +1,36 @@
+/* styles/Gallery.css */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Flexible Rasterlayout */
+  gap: 16px;
+  padding: 16px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  max-height: 1000px; /* Maximale Höhe für die Bilder */
+  object-fit: contain; /* Bilder passend einfügen, so dass das gesamte Bild sichtbar ist */
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer; /* Zeigt an, dass das Bild anklickbar ist */
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
+
+/* Anpassung für das vergrößerte Bild im Modal */
+.modal-body .carousel .carousel-item img {
+  max-height: calc(100vh - 200px); /* Maximale Höhe des Bildes im Modal */
+  width: auto;
+  max-width: 100%; /* Bildbreite auf das Modal anpassen */
+  object-fit: contain; /* Bilder passend einfügen, so dass das gesamte Bild sichtbar ist */
+}

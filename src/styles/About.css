@@ -5,9 +5,10 @@
   }
   
   .About-kerstin img {
+    margin-right: 20px;
     order: 2;
-    width: 40vw;
-    height: 40vw;
+    width: auto;
+    height: 35vh;
     transform: translateX(100%);
     transition: transform 1s;
   }
@@ -16,12 +17,14 @@
 
 .About-stephan {
     display: flex;
+    margin-top: 40px;
   }
   
   .About-stephan img {
+    margin-left: 20px;
     order: 1;
-    width: 40vw;
-    height: 40vw;
+    width: auto;
+    height: 35vh;
     transform: translateX(-100%);
     transition: transform 1s;
   }
@@ -30,6 +33,7 @@
 
 .About-bernd {
     display: flex;
+    margin-top: 40px;
   }
   
   .About-bernd img {
@@ -46,12 +50,14 @@
 
 .About-joerg {
     display: flex;
+    margin-top: 40px;
   }
   
   .About-joerg img {
+    margin-left: 20px;
     order: 1;
-    width: 40vw;
-    height: 40vw;
+    width: auto;
+    height: 35vh;
     transform: translateX(-100%);
     transition: transform 1s;
   }
@@ -60,12 +66,14 @@
 
 .About-mathias {
     display: flex;
+    margin-top: 40px;
   }
   
   .About-mathias img {
+    margin-right: 20px;
     order: 2;
-    width: 40vw;
-    height: 40vw;
+    width: auto;
+    height: 35vh;
     transform: translateX(100%);
     transition: transform 1s;
   }

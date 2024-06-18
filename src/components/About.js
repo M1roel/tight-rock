@@ -107,7 +107,6 @@ function About() {
         </div>
       </div>
       <div className="About-bernd">
-        <img src="" alt="drums tight "></img>
         <div className="beschreibung_links">
           <h2>Derzeit unbesetzt - Drums</h2>
           <p>
