@@ -18,7 +18,7 @@ function ControlledCarousel() {
           <img
             src={imgSrc}
             alt={`Slide ${idx + 1}`}
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
           />
           {/* <Carousel.Caption>
             <h3>Slide label {idx + 1}</h3>

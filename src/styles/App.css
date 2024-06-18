@@ -142,6 +142,11 @@
   margin-right: 5%; /* Rechter Abstand */
 }
 
+.carousel-img {
+  height: 800px; /* Maximale Höhe der Bilder im Carousel */
+  object-fit: contain;
+}
+
 /* Footer CSS */
 
 .Footer-main {
