@@ -1,11 +1,20 @@
+.body {
+  width: 100vw;
+  margin: 0;
+}
+
 /* App CSS */
 
 .App {
+  width: 100%;
+  overflow-x: hidden;
   text-align: center; /* Zentriert den Text horizontal */
   background-color: #282c34; /* Hintergrundfarbe */
 }
 
 .App-header {
+  width: 100%;
+  height: 100%;
   background-color: #282c34; /* Hintergrundfarbe */
   display: flex; /* Aktiviert Flexbox */
   flex-direction: column; /* Stapelt die Elemente vertikal */
@@ -18,13 +27,14 @@
 .Bandfoto {
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: auto;
 }
 
 /* Navbar CSS */
 
 .Navbar {
+  width: 100%;
   background-color: #282c34; /* Hintergrundfarbe */
   padding-top: 10px; /* Oberen Innenabstand */
   padding-bottom: 10px; /* Unteren Innenabstand */

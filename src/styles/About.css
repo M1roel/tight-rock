@@ -85,8 +85,8 @@
     font-size: 1.2rem;
     margin-top: auto;
     margin-bottom: auto;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: left;
   }
 
@@ -95,8 +95,8 @@
     font-size: 1.2rem;
     margin-top: auto;
     margin-bottom: auto;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: left;
     transform: translateX(-100%);
     transition: transform 1s;
@@ -107,8 +107,8 @@
     font-size: 1.2rem;
     margin-top: auto;
     margin-bottom: auto;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: right;
     transform: translateX(100%);
     transition: transform 1s;
@@ -148,3 +148,14 @@
     }
   }
   
+  @media (max-width: 1000px) {
+    .About-bernd,
+    .About-joerg,
+    .About-kerstin,
+    .About-mathias,
+    .About-stephan {
+      flex-direction: column;
+    }
+
+    
+  }

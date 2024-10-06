@@ -1,5 +1,6 @@
 .Image-container {
     position: relative; /* Positionierung relativ zum Container */
+    width: 100%;
   }
   
   .Text-overlay {
