@@ -10,7 +10,6 @@ function Body() {
         <div className="Tour-container">
           <h2>Tour {tourYear}</h2>
           <ul> 
-            <li>02.11.2024, Titz-Spiel, MC-Pegasus</li> 
             <li>14.12.2024, Kneipe zum Pitter, Köln</li>
           </ul>
           <h2>Tour {nextTourYear}</h2>
