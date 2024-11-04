@@ -108,9 +108,9 @@ function About() {
       </div>
       <div className="About-bernd">
         <div className="beschreibung_links">
-          <h2>Derzeit unbesetzt - Drums</h2>
+          <h2>Mad Max - Drums</h2>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            BESCHREIBUNG UND BILD FOLGEN - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
             et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
